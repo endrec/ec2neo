@@ -127,7 +127,7 @@
                         "*   hard    nofile  40000\n",
                         "EOF\n",
                         "\n",
-                        "sed -i 's/# session    required   pam_limits.so/session    required   pam_limits.so/' /etc/pam.d/su"
+                        "sed -i 's/# session    required   pam_limits.so/session    required   pam_limits.so/' /etc/pam.d/su",
                         "service neo4j-service restart\n",
                         "service haproxy restart\n",
                         "cat <<EOF > /etc/cron.daily/neo4j_backup\n",
